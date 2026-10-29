@@ -1,0 +1,7 @@
+# Copy to .dev.vars. Never commit real secrets.
+AUTH_URL=http://127.0.0.1:5173
+AUTH_SECRET=
+AUTH_GOOGLE_ID=
+AUTH_GOOGLE_SECRET=
+# Only these verified Google accounts may sign in.
+AUTH_ALLOWED_EMAILS=

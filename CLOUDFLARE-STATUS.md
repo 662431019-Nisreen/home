@@ -1,0 +1,13 @@
+# สถานะการติดตั้ง
+- เว็บออนไลน์: https://baan-rao-expenses.nasmeekaree.workers.dev
+- Cloudflare Workers Free และ D1 ตั้งค่าแล้ว ไม่มีการอัปเกรดแพ็กเกจหรือซื้อโดเมน
+- Google project Baan Rao Expenses: burnished-craft-511214-d3
+- OAuth client Baan Rao Web สร้างแล้ว ตั้งค่า callback ในเครื่องและเว็บออนไลน์แล้ว
+- อีเมลที่อนุญาต: nasmeekaree@gmail.com
+- Secret เก็บใน Cloudflare และ .dev.vars ที่ไม่ติดตาม Git ห้ามเผยแพร่ไฟล์นี้
+- ทดสอบ Google Login ใน Safari ออนไลน์สำเร็จ
+- ทดสอบเพิ่ม โหลดซ้ำ แก้ไข และลบรายการทดสอบในบัญชีแยกสำเร็จ
+- ตรวจแยกข้อมูลผู้ใช้ ปฏิเสธจำนวนเงินผิดและคำขอข้ามเว็บไซต์สำเร็จ
+- รูปครอบครัวและรายจ่ายเข้าถึงได้เฉพาะหลังเข้าสู่ระบบ
+- ใช้ scripts/cloudflare.mjs เรียก Wrangler กับ wrangler.cloudflare.json
+- เวลาตรวจสอบ: 2026-10-10
